@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Generic - Solid State by HTML5 UP</title>
+	<title>Data Generator</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
@@ -49,7 +49,8 @@
 			<header>
 				<div class="inner">
 					<h2>Generic</h2>
-					<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+					<p>A survey responses generator that takes csv files from google forms and creates new responses that
+						maintains the same distribution as the previus answers.</p>
 				</div>
 			</header>
 
@@ -57,28 +58,43 @@
 			<div class="wrapper">
 				<div class="inner">
 
-					<h3 class="major">Some title</h3>
-					<p>first paragraph</p>
+					<h3 class="major">Motivation</h3>
+					<p>I just needed a way to generate survey responses for my statistics class. So I created this generator using
+						pandas that maintains the distribution of the data.</p>
 
-					<h3 class="major">Another title</h3>
-					<p>second paragraph</p>
+					<h3 class="major">Usage</h3>
+					<p>To see it in action you can follow the instructions that I put in the readme of the project (see
+						source code)</p>
+					<p>To obtain it just clone the repositorie</p>
+					<p>Then download the csv file from the google forms that you want to generate from</p>
+					<p>Change the variables "eBase" and "eGen" to the name of the csv input file and the csv output file
+						respectively</p>
+					<p>
+						Run the python interpreter as follows
+						<code>python3 dataGen.py</code>
+						in the terminal
+					</p>
 
-					<!-- 
-					<section class="features">
-						<article>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-							<h3 class="major"> a</h3>
-							<p>b</p>
-							<a href="#" class="special">Learn more</a>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-							<h3 class="major">C</h3>
-							<p>D</p>
-							<a href="#" class="special">Learn more</a>
-						</article>
-					</section> 
-				-->
+					<h3 class="major">Technologies</h3>
+					<div class="table-wrapper">
+						<table>
+							<tbody>
+								<tr>
+									<td>Python 3</td>
+								</tr>
+								<tr>
+									<td>Pandas</td>
+								</tr>
+								<tr>
+									<td>CSV files</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<h3 class="major">Source code</h3>
+					<p class="icon brands fa-github">
+						<a href="https://github.com/warleon/Data_generator">warleon/Data_generator</a>
+					</p>
 				</div>
 			</div>
 
